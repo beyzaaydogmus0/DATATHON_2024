@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 from jpype import JClass, startJVM, shutdownJVM, getDefaultJVMPath
 
 # CSV dosyasını yükleme
-train=r"C:\Users\beyza\OneDrive\Masaüstü\datathon\train.csv"
+train=r"train.csv" #train.csv dosyasının dosya yolu buraya ekleyiniz
 df = pd.read_csv(train)
 
 
@@ -1457,7 +1457,7 @@ df['Baska Kurumdan Aldigi Burs Miktari'] = df['Baska Kurumdan Aldigi Burs Miktar
 
 stop_words = set(stopwords.words('turkish'))
 # Zemberek'i tanımlama
-ZEMBEREK_PATH = r"C:\Users\beyza\Downloads\zemberek-full (3).jar"
+ZEMBEREK_PATH = r"zemberek-full.jar" #zemberek-full.jar dosyasının dosya yolu buraya ekleyiniz
 if not jpype.isJVMStarted():
     startJVM(getDefaultJVMPath(), '-ea', '-Djava.class.path=%s' % (ZEMBEREK_PATH))
 
@@ -1531,5 +1531,5 @@ df['Lise Mezuniyet Notu'] = df['Lise Mezuniyet Notu'].replace({
 
 })
 
-df.to_csv(r"C:\Users\beyza\OneDrive\Masaüstü\datathon\temizlenmis_veri.csv", index=False)
+df.to_csv(r"temizlenmis_veri.csv", index=False) #kayıt edilmesini istediğiniz dosyasının dosya yolu buraya ekleyiniz
 
