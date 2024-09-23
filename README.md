@@ -3,7 +3,9 @@ BTK Akademi, Google ve Girişimcilik Vakfı'nın düzenlediği Datathon 2024 yar
 
 Takım Adı: dataBenders
 Üyeleri:
+
 1)Beyza AYDOĞMUŞ - İzmir Katip Çelebi Üniversitesi Bilgisayar Mühendisliği 3.sınıf öğrencisi
+
 2)Sena YÜKSEL - İzmir Katip Çelebi Üniversitesi Bilgisayar Mühendisliği 3.sınıf öğrencisi
 
 Kodların Kullanılabilmesi İçin Uygulanması Gereken Aşamalar
